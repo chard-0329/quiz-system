@@ -1,0 +1,42 @@
+User User Interface!
+
+1. User can choose what category they want, and from each category they can choose a 
+quizzess they want to take (e.g,. Science - it's quiz content science fundamentals, 
+physics challenge).
+
+2. User can navigate through categories page, profile page, and leaderboard page. 
+- Categories page is where the cateogries are and it's quizzes.
+- Profile page contains a user profile, analytics (quiz taken, total points,
+    avg score, perfect scores). Which category you take the most, and taken recently.
+- Leaderboard page is where all of the users top ranked total scores.
+
+------SOON!!--------
+3. User can be able to search for a particular other user. (IDK WHICH FRAMEWORK WILL DO).
+
+
+-------------------SOOON!!!------------------
+Admin Side
+
+1. Admin can create a new category which they can also create a quiz under each
+category, they can update, delete, and add quizzes or category.
+
+2. They can see the statistics of the users what category taken by most, and what
+scores they are having. They could also potentially delete users.
+
+3. Basically they can track what is happening in user side. 
+
+-------------------SOOON!!!--------------------
+Authentication
+
+1. Connect FIREBASE to the project.
+2. Users need now and be able to signin/signup respectively (FIREBASE AUTHENTICATION).
+3. Users can now be able to save their data.
+
+1. Admin has a different authentication which should have a super admin that can
+create a additional admin user (from admin management they have a page where only
+they can see it which create a other admin role user), which that admin user can 
+only have a power to create, add, update, delete tasks, and see analytics. 
+
+2. To create this admin use Role-Based Access Control (RBAC). Use JWT with Role Claim
+Use Firebase Database, use Spring Boot to routes access. First create manually from
+database the super admin account.
