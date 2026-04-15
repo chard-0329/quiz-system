@@ -23,7 +23,7 @@ export default function HomePage() {
               <p className="max-w-lg text-base leading-relaxed text-muted-foreground lg:text-lg">
                 Choose a category below and challenge yourself with quizzes across
                 multiple difficulty levels. Track your progress and climb the
-                leaderboard.
+                leaderboard and get there.
               </p>
             </div>
             <div className="flex flex-wrap gap-4 lg:flex-nowrap">
